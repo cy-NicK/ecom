@@ -1,0 +1,50 @@
+.Header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: sticky;
+    align-items: center;
+    height: 60px;
+    z-index: 100;
+    padding-right: 1%;
+}
+.Header_logo{
+    object-fit: contain;
+    margin: 5px;
+    max-width: 180px;
+    width: auto;
+    height: auto;
+}
+
+.Header_search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+    height: 40px;
+    background-color: rgb(228, 228, 228);
+    border: 1px solid transparent;
+}
+.Header_search_input{
+    width:100%;
+    border: none;
+    background: none;
+    padding-left: 20px;
+    height: 80%;
+}
+.Header_nav{
+    justify-content: space-evenly;
+    display: flex;
+}
+.Header_nav_options{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.Header_search_icon{
+    margin: auto 10px;
+    background: none;
+    border: none;
+}
+.Header_option_basket{
+    display: flex;
+    justify-content: center;
+}
